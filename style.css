@@ -1,0 +1,22 @@
+body {
+    background-attachment: #f3f4f5;
+}
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+p,
+ol,
+ul {
+    color: #757575;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.bold {
+    font-weight: bold;
+
+}
