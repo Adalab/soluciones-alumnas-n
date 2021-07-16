@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: lightyellow;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: lightseagreen;
+}
+
+.comidas {
+    background-color: mediumaquamarine;
+}
+
+.desayuno {
+    background-color: mistyrose;
+}
+
+.comida {
+    background-color: palegoldenrod;
+}
+
+.cena {
+    background-color: palegreen;
+}
