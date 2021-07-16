@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.main {
+  width: 86%;
+  max-width: 600px;
+  margin: auto;
+}
