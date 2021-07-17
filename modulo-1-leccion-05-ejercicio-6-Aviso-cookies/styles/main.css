@@ -1,0 +1,7 @@
+.last-div {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 0px;
+}
