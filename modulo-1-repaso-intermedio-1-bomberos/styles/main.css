@@ -1,0 +1,99 @@
+:root {
+    --principal-color: #cc212a;
+    --background-color: #fff;
+    --body-text: 'Montserrat', sans-serif;
+}
+* {
+    font-family: var(--body-text);
+}
+.main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    color: var(--principal-color);
+    font-weight: 800;
+    font-size: 30px;
+}
+.footer {
+    position: relative;
+}
+.line {
+    border-bottom: 3px solid var(--principal-color) ;
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-circle {
+    /* centrar circulo - mamá de circulo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    /* centrar el letra - mamá de letra */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* subir circulo */
+    position: relative;
+    bottom: 20px; 
+    /* creacion de circulo */
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: var(--principal-color);
+    color: #fff;
+}
+.letter-r {
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 11px;
+    right: 18px;
+}
+.footer {
+    height: 10vh;
+}
+.copy {
+    font-size: 12px;
+} 
+@media screen and (min-width:768px) {
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .container-circle {
+        order: 1;
+    }
+    .circle {
+        bottom: -15px;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        
+    }
+    .letter-r {
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        top: 9px;
+    }
+    .copy {
+        padding-top: 3px;
+    }
+    .copy {
+        font-size: 17px;
+    } 
+    
+}
