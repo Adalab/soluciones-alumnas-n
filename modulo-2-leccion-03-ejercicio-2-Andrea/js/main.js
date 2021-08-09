@@ -1,6 +1,6 @@
 'use strict';
 
-const theName = 'Andrea';
+const theName = 'lucia';
 
 const nameToCompare = 'ANDREA';
 
