@@ -1,0 +1,10 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+.highlight {
+  background-color: yellow;
+}

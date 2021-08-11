@@ -1,0 +1,15 @@
+* {
+  margin-left: 10px;
+}
+button {
+  width: 70px;
+  height: 20px;
+  background-color: peachpuff;
+  border: none;
+  border-radius: 12.5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.32);
+}
+
+button:hover {
+  opacity: 0.6;
+}
