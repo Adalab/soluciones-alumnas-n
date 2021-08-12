@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  background-color: peachpuff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin: 30px;
+  height: 35px;
+  width: 140px;
+  border: solid 2px black;
+  border-radius: 4px;
+}
+.color1 {
+  background-color: deepskyblue;
+  border-color: dodgerblue;
+}
+.color2 {
+  background-color: hotpink;
+  border-color: deeppink;
+}
