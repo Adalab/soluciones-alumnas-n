@@ -25,19 +25,28 @@ let adalabers = [
         name: 'Inmaculada' ,
         age: 21 ,
         job: 'diseñadora'
+    },
+    {
+        name: 'Pepita' ,
+        age: 18 ,
+        job: 'periodista'
+    },
+    {
+        name: 'Ana',
+        age: 25,
+        job: 'actriz'
+    },
+    {
+        name: 'Blanca' ,
+        age: 17 ,
+        job: 'diseñadora'
     }
 ];
 
 // Una función countAdalabers que devuelve el número de adalabers en el listado.
 
 function cuentaAdalabers (adalabers){
-    console.log(adalabers.length);
-    // let cont = 0;
-    // for (let i = 0; i < adalabers.length; i++) {
-    //     console.log(adalabers[i]);
-    //     cont = cont + 1;      
-    // }
-    // return cont;
+    console.log('En el listado hay ' + adalabers.length + ' adalabers');
 }
 
 cuentaAdalabers(adalabers);
@@ -52,23 +61,24 @@ function averageAge  (adalabers){
     let media = totalAge / adalabers.length;
     return media;
 }
-console.log(averageAge(adalabers));
+console.log('La media es' ,averageAge(adalabers));
 
 
 // Una función theYoungest que devuelve el nombre de la adalaber más joven.
 function theYoungest  (adalabers){
-    let youngest;
+    let index = 0;
+    let youngest = adalabers[index].age;
+    let youngestName = adalabers[index].name;
     for (let i = 1; i < adalabers.length; i++) {
-        if (adalabers[i-1].age > adalabers[i].age){
-            youngest = adalabers[i].name;
+        if (youngest > adalabers[i].age){
+            youngest = adalabers[i].age;
+            youngestName = adalabers[i].name;
         }   
-        else{
-            youngest = adalabers[i-1].name;
-        }
     }
-    return youngest;
+    return youngestName;
 }
-console.log(theYoungest(adalabers));
+console.log('La más joven es ' + theYoungest(adalabers));
+
 
 
 // Una función countDesigners que devuelve el número de adalabers que son diseñadoras.
@@ -83,4 +93,4 @@ function countDesigners (adalabers){
     return cont;
 }
 
-console.log( countDesigners(adalabers));
+console.log('Número de diseñadoras: ', countDesigners(adalabers));
