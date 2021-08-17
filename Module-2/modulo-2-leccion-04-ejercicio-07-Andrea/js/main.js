@@ -3,7 +3,7 @@
 function getEl (selector) {
     let yourJsConst = document.querySelector(selector);
     if (!yourJsConst) {
-        console.error(`No existe ningún elemento con clase, id o tag llamado ${selector}`);
+        console.error(`There is no element with a class, id or tag called ${selector}`);
     }
     return yourJsConst;
 }
