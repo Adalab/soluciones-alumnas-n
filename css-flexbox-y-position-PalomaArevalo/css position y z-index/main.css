@@ -1,0 +1,296 @@
+.box {
+    border: 1px solid cyan;
+    width: 450px;
+    height: 450px;
+    margin: 5% auto 0;
+}
+
+.dot {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot--1 {
+    background: black;
+    color: white;
+}
+
+.dot--2 {
+    background: #414141;
+    color: white;
+}
+
+.dot--3 {
+    background: #800;
+    color: white;
+}
+
+
+/* uno */
+
+
+/* .dot--2 {
+    position: relative;
+    top: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+} */
+
+
+/*dos*/
+
+
+/* .dot--1 {
+    position: relative;
+    z-index: -1;
+    left: 100px;
+    top: 100px;
+}
+
+.dot--2 {
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.dot--3 {
+    position: relative;
+    z-index: 1;
+    left: 200px;
+    bottom: 50px;
+} */
+
+
+/*tres*/
+
+
+/* .dot--1 {
+    position: relative;
+    top: 150px;
+}
+
+.dot--2 {
+    position: relative;
+    left: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    left: 150px;
+} */
+
+
+/*cuatro*/
+
+
+/* .dot--1 {
+    position: relative;
+    left: 300px;
+}
+
+.dot--2 {
+    position: relative;
+    left: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+} */
+
+
+/*cinco*/
+
+
+/* .dot--1 {
+    position: relative;
+    z-index: -1;
+    left: 100px;
+    height: 450px;
+}
+
+.dot--2 {
+    position: relative;
+    left: 150px;
+    bottom: 300px;
+    height: 300px;
+}
+
+.dot--3 {
+    position: relative;
+    z-index: 1;
+    left: 200px;
+    bottom: 450px;
+} */
+
+
+/*seis*/
+
+
+/* .dot--1 {
+    height: 450px;
+    width: 450px;
+}
+
+.dot--2 {
+    position: relative;
+    z-index: 1;
+    bottom: 300px;
+}
+
+.dot--3 {
+    position: relative;
+    z-index: 1;
+    bottom: 450px;
+    left: 300px;
+} */
+
+
+/*siete*/
+
+
+/* 
+.dot--1 {
+    height: 300px;
+    width: 450px;
+}
+
+.dot--2 {
+    position: relative;
+    bottom: 75px;
+    left: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    bottom: 150px;
+    width: 450px;
+    z-index: 1;
+} */
+
+
+/*ocho*/
+
+
+/* 
+.dot--1 {
+    position: relative;
+    width: 300px;
+    left: 150px;
+}
+
+.dot--2 {
+    position: relative;
+    height: 450px;
+    bottom: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    bottom: 450px;
+    left: 150px;
+} */
+
+
+/*nueve*/
+
+
+/* .dot--1 {
+    position: relative;
+    width: 450px;
+}
+
+.dot--2 {
+    position: relative;
+    width: 300px;
+    z-index: 1;
+    left: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    bottom: 150px;
+} */
+
+
+/*diez*/
+
+
+/* .dot--1 {
+    position: relative;
+    width: 450px;
+    z-index: 1;
+    top: 150px;
+}
+
+.dot--2 {
+    position: relative;
+    height: 450px;
+    bottom: 150px;
+}
+
+.dot--3 {
+    position: relative;
+    height: 450px;
+    left: 300px;
+    bottom: 600px;
+} */
+
+
+/*once*/
+
+
+/* .dot--1 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 150px;
+}
+
+.dot--2 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    bottom: 300px;
+}
+
+.dot--3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    bottom: 450px;
+    left: 75px;
+    z-index: 2;
+} */
+
+
+/*doce*/
+
+
+/* .dot--1 {
+    position: relative;
+    left: 300px;
+}
+
+.dot--2 {
+    width: 450px;
+    height: 300px;
+}
+
+.dot--3 {
+    position: relative;
+    bottom: 450px;
+} */
