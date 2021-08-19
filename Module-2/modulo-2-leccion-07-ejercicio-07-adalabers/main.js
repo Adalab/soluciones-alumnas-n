@@ -29,6 +29,11 @@ const adalabers = [
     age: 21,
     job: "diseñadora ",
   },
+  {
+    name: "Patricia",
+    age: 31,
+    job: "arquitecta ",
+  },
 ];
 
 // * Creacion de funciones
@@ -39,10 +44,10 @@ function countAdalabers() {
   // pero recordar que cuenta desde 0, asi que la posición 5º sera la posición 4)
   const length = adalabers.length;
 
-  console.log(`Hay ${length} adalabers en la lista`);
+  return length;
 }
 
-// countAdalabers()
+console.log(`El arreglo adalabers tiene una longitud de ${countAdalabers()}`);
 
 // TODO: edad media de adalabers
 
@@ -59,10 +64,10 @@ function averageAge() {
   //Operación de la media
   const media = sumAge / adalabers.length;
 
-  console.log(`La edad media de las adalaber es ${media}`);
+  return media
 }
 
-// averageAge()
+console.log(`La edad media de las adalaber es ${averageAge()}`);
 
 // TODO: Nombre de la adalaber más joven
 
@@ -90,11 +95,11 @@ function theYoungest() {
 
   //nombrar variable de la posicion del la Adalaber más joven
   let theYoungest = adalabers[position].name
-  console.log(`La adalaber más joven es ${theYoungest}`);
-
+  
+  return theYoungest
 }
 
-// theYoungest()
+console.log(`La adalaber más joven es ${theYoungest()}`);
 
 // TODO: Número de Adalabers diseñadoras
 
@@ -120,10 +125,11 @@ function countDesigners() {
     
   }
   
-  console.log(`Hay ${count} diseñadoras Adalabers`) 
+  return count
 }
 
-countDesigners()
+console.log(`Hay ${countDesigners()} diseñadoras Adalabers`) 
+
   
 
 
