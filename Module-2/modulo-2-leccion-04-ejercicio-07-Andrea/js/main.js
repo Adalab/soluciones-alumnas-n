@@ -1,21 +1,21 @@
 'use strict';
 
-function getEl (selector) {
-    let yourJsConst = document.querySelector(selector);
-    if (!yourJsConst) {
-        console.error(`No existe ningún elemento con clase, id o tag llamado ${selector}`);
-    }
-    return yourJsConst;
+function getEl(selector) {
+  let yourJsConst = document.querySelector(selector);
+  if (!yourJsConst) {
+    console.error(
+      `No existe ningún elemento con clase, id o tag llamado ${selector}`
+    );
+  }
+  return yourJsConst;
 }
 
-
-function isEven(num){
-    if ( num % 2 === 0 ){
-        console.log(`El número ${num} es PAR.`);
-    }
-    else {
-        console.log(`El número ${num} es IMPAR.`);
-    }
+function isEven(num) {
+  if (num % 2 === 0) {
+    console.log(`El número ${num} es PAR.`);
+  } else {
+    console.log(`El número ${num} es IMPAR.`);
+  }
 }
 
 const myNumber = getEl('.paragraph');
