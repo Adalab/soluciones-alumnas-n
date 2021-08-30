@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc00;
+}
+.happy {
+  background: #ffcc00;
+}
+.sad {
+  background-color: rgb(128, 128, 241);
+}
+.mood {
+  text-align: center;
+}
+
+.result {
+  font-size: 80px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.select {
+  padding: 1px 5px 1px 5px;
+  height: 21px;
+  width: 58px;
+}
