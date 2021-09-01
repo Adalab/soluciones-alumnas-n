@@ -1,0 +1,45 @@
+$textColor: #010101;
+$sizeText: 18px;
+$wrapperMargin: 0 60px;
+$headerFooterBack: yellow;
+$headerFooterHeight: 50px;
+$mainBackColor: cyan;
+$fontStyle: arial, sans-serif;
+
+
+body {
+  color: $textColor; /* Pasar a variable */
+  display: flex;
+  font: $sizeText,$fontStyle;/* pasar a dos variables: texto y tamaño de texto */
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+.wrapper {
+  margin: 0 40px;
+}
+.header {
+  background: $headerFooterBack; /* Pasar a variable */
+  height: $headerFooterHeight; /* Pasar a variable */
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.main {
+  background: $mainBackColor; /* Pasar a variable */
+  flex: 1;
+}
+.main__title {
+  color: #fff;
+  font-size: 2.5em;
+}
+.main__content p {
+  font-size: 1.1em;
+  line-height: 140%;
+}
+.footer {
+  background: lightgrey; /* Pasar a variable */
+  height: $headerFooterHeight; /* Pasar a variable */
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
