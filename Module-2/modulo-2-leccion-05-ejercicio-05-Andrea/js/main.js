@@ -3,7 +3,8 @@
 const background = document.querySelector('.main');
 
 
-function changeColor (){
+function changeColor (event){
+event.currentTarget()
     if(background.classList.contains('purple')){
         background.classList.remove('purple');
         background.classList.add('red');
