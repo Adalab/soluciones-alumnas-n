@@ -8,7 +8,5 @@ function updateInfo(event){
     console.log(event.currentTarget.value);
 }
 
-input.addEventListener('keydown', updateInfo);
-
-// Por qué lo que se escribe en paragraph va siempre con un keypress de retraso? 
+input.addEventListener('keyup', updateInfo);
 

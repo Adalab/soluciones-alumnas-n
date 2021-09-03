@@ -7,7 +7,7 @@ const title = document.querySelector('.title');
 const text = document.querySelector('.text');
 
 if (notif.classList.contains('warning')){
-    title.innerHTML = 'AVISO';
+    title.innerHTML = "AVISO";
     text.innerHTML = 'Tenga cuidado';
 }
 else if (notif.classList.contains('error')){
