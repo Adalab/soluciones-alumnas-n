@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-const button = document.querySelector('.button');
+const button = document.querySelector(".button");
 
 // function changeStyle () {
 //     if(button.classList.contains('color1')){
@@ -13,8 +13,8 @@ const button = document.querySelector('.button');
 //     }
 // }
 
-function changeStyle (){
-    button.classList.toggle('color2');
+function changeStyle() {
+  button.classList.toggle("color2");
 }
 
-button.addEventListener('click', changeStyle);
+button.addEventListener("click", changeStyle);
