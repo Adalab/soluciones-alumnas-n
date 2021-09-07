@@ -1,0 +1,53 @@
+.body {
+  height: 100vh;
+  padding: 30px 30px 30px 30px;
+  background-color: midnightblue;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: goldenrod;
+  height: 20%;
+}
+.title {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 50px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+  padding: 50px 0 30px 0;
+}
+.text {
+  font-size: 18px;
+}
+.input {
+  margin: 30px 0 30px 0;
+}
+.char-list {
+  margin-top: 30px;
+}
+.list-item {
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+}
+.footer {
+  height: 10%;
+}
+
+.button {
+  /* background-color: goldenrod; */
+  /* height: 30px; */
+  /* border: solid black 2px; */
+  /* border-radius: 4px; */
+  margin: 30px 0 30px 0;
+}
+.hidden {
+  display: none;
+}
