@@ -1,0 +1,11 @@
+https://swapi.dev/
+
+1- la URL base del API: https://swapi.dev/api/
+2- si necesita autenticación: no
+3- método HTTP que deben usar las peticiones a este API: GET
+4- URL para acceder a la info del personaje "Luke Skywalker": https://swapi.dev/api/people/1/
+5- URL para acceder a la info de la película "A New Hope": https://swapi.dev/api/films/1/
+6- a qué otros recursos puedo acceder desde el API además de personajes y pelis: starships,species, vehicles and planets
+7- URL para acceder al listado de personajes, ¿está paginada? si
+8- cómo puedo buscar personajes mediante la URL: usando la paginación: ej: /?page=2
+9- cómo puedo hacer que el JSON de una petición se me devuelva traducido a Wookiee: preguntando por https://swapi.dev/api/species/
