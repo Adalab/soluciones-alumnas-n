@@ -1,0 +1,29 @@
+body {
+  background-color: lightpink;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin-top: 20px;
+  text-align: center;
+  background-color: hotpink;
+  border: solid 3px black;
+  color: lightpink;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  padding: 20px 10px;
+  line-height: 0px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  color: lightpink;
+}

@@ -1,0 +1,212 @@
+.box {
+    border: 1px solid cyan;
+    width: 450px;
+    height: 450px;
+    margin: 5% auto 0;
+}
+
+.dot {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot--1 {
+    background: black;
+    color: white;
+}
+
+.dot--2 {
+    background: #414141;
+    color: white;
+}
+
+.dot--3 {
+    background: #800;
+    color: white;
+}
+
+
+/* Flexbox*/
+
+
+/*uno*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ */
+
+
+/*dos*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/*tres*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dot--2 {
+    align-self: center;
+}
+
+.dot--3 {
+    align-self: flex-end;
+}
+/*cuatro
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}*/
+
+
+/*cinco*/
+
+
+/*
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dot--2 {
+    align-self: flex-end;
+}
+*/
+
+
+/*seis*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: row;
+}
+
+.dot--2 {
+    align-self: center;
+}
+
+.dot--3 {
+    align-self: center;
+}
+ */
+
+
+/*siete*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/*ocho*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot--2 {
+    order: -1;
+} */
+
+
+/*nueve*/
+
+
+/* .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.dot--1 {
+    flex-basis: 100vw;
+}
+
+.dot--2 {
+    flex-basis: 50vw;
+    margin-left: 20vw;
+}
+
+.dot--3 {
+    flex-basis: 50vw;
+    margin-right: 20vw;
+} */
+
+
+/* diez */
+
+
+/* 
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.dot--1 {
+    height: 30%;
+}
+
+.dot--2 {
+    order: -1;
+    align-self: flex-end;
+    height: 70%;
+}
+
+.dot--3 {
+    align-self: flex-end;
+    height: 70%;
+} */
+
+
+/*once*/
+
+
+/* 
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dot--1 {
+    align-self: flex-end;
+    width: 60%;
+}
+
+.dot--2 {
+    align-self: flex-start;
+    width: 60%;
+}
+
+.dot--3 {
+    align-self: flex-end;
+    width: 60%;
+} */
