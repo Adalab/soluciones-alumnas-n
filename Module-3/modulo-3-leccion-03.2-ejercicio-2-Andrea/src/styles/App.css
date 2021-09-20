@@ -1,0 +1,27 @@
+.page {
+  font-size: 20px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: crimson;
+  padding: 10px 20px 10px 20px;
+  width: 40%;
+}
+.selector {
+  width: fit-content;
+  font-size: 18px;
+  display: inline-block;
+  padding: 5px 0 5px 0;
+}
+.button {
+  width: fit-content;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.input {
+  font-size: 18px;
+  padding-left: 10px;
+}
