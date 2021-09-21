@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url('../images/header-background.png');
+  margin-bottom: 10px;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
